@@ -2,7 +2,7 @@
 
 ## Overview
 LLMCleanPDFReader is a project aimed at cleaning up and correcting the text extracted from PDF documents. 
-It utilizes a language model to correct grammatical errors and separate words that might have been stitched together during the PDF parsing process. 
+It utilizes a large language model (Mistral 7B - int4) to correct grammatical errors and separate words that might have been stitched together during the PDF parsing process. 
 This is a learning project and is designed to work efficiently on a small GPU with 8GB VRAM.
 
 ## Features
