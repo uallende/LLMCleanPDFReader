@@ -14,23 +14,23 @@ This is a learning project and is designed to work efficiently on a small GPU wi
 ## Installation
 Clone this repository to your local machine and navigate to the project directory.
 
-\\\bash
+```
 git clone https://github.com/uallende/LLMCleanPDFReader.git
 cd LLMCleanPDFReader
-\\\
+```
 
 Install the required Python packages.
 
-\\\bash
+```
 pip install -r requirements.txt
-\\\
+```
 
 ## Usage
 Run the main script and pass in the required arguments.
 
-\\\bash
+```
 python main_script.py --doc_path=path/to/document --chunk_size=150 --overlap=0
-\\\
+```
 
 ## Contributing
 Feel free to fork the project, open a pull request, or report any issues you encounter.
