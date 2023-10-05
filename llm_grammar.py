@@ -68,11 +68,11 @@ def llm_grammar_loop(doc_path, device, model=None, tokenizer=None, chunk_size=10
         print("Corrected Text:", corrected_text)  # Debug print
         fxd_text.append(corrected_text)
         
-    with open(f"data/{doc_name}.csv", "w") as f:
+    with open(f"reviewed_pdfs/{doc_name}.csv", "w") as f:
         for item in fxd_text:
             f.write("%s\n" % item)
         
-    print(f"Document {doc_name} saved to folder data/")
+    print(f"Document {doc_name} saved to folder reviewed_pdfs/")
 
 if __name__ == "__main__":
     print('Running main function')
